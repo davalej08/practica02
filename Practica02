@@ -22,3 +22,7 @@ public class PracticaClase02 {
         byte pagoHora= 0;
         int salarioBruto= 0;
         int salarioBono = 0;
+        semanas = Byte.parseByte(JOptionPane.showInputDialog("Digite cuantas s"
+              +"emanas trabajo esta semana"));
+        sal_hor = Byte.parseByte(JOptionPane.showInputDialog
+           ("Cuanto gana por hora en dolares"));
